@@ -7,7 +7,7 @@
 import libreadline from 'readline' // node lib
 import chalk from 'chalk' // color text https://github.com/chalk/chalk
 import { drivers } from './drivers/index.js' // data source drivers
-import { commands, aliases } from './commands/index.js' // command handlers
+import { commands, aliases } from './commands/commands.js' // command handlers
 import { Ui } from './ui.js'
 
 const filepath = './src/data/index.js' //. pass via envar or param
